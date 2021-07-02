@@ -1,0 +1,108 @@
+.h9{
+ text-align: center;
+ vertical-align: middle;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: large;
+}
+
+.h8{
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 5px;
+}
+
+.egg{
+    background-color: black;
+}
+
+grid-container{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+    " map info shows socials "
+    " . adress the-piano-lesson facebook "
+    " . email Raisin-in-the-sun twitter "
+    " . call fame youtube "
+    " . . The-color-purple instagram "
+    
+}
+.map{
+    grid-area: map;
+}
+.info{
+    grid-area: info;
+}
+.shows{
+    grid-area: shows;
+}
+.socials{
+    grid-area: socials;
+}
+.adress{
+    grid-area: adress;
+}
+.the-piano-lesson{
+    grid-area: the-piano-lesson;
+}
+.facebook{
+    grid-area: facebook;
+}
+.email{
+    grid-area: email;
+}
+
+.Raisin-in-the-sun{
+    grid-area: Raisin-in-the-sun;
+}
+.twitter{
+    grid-area: twitter;
+}
+
+.call{
+    grid-area: call;
+}
+
+.fame{
+    grid-area: fame;
+}
+
+.youtube{
+    grid-area: youtube;
+}
+
+.The-color-purple{
+    grid-area: The-color-purple;
+}
+
+.instagram{
+    grid-area: instagram;
+}
+
+.map, .info, .shows, .socials, .adress, .the-piano-lesson, .facebook, 
+.email, .Raisin-in-the-sun, .twitter, .call, .fame, .youtube, .The-color-purple, .instagram{
+  Place-self: center;
+  border: 10px solid black;
+  padding: 50px
+}
+
+.text-on-image{
+    z-index: 3;
+}
+
+.text-overlay {
+    position: relative;
+    color: red;
+}
+.card-img {
+    position: left;
+}
+
+.text-container {
+    position: absolute;
+}
+
